@@ -1,0 +1,103 @@
+
+@font-face {
+    font-family: 'Lemon/Milk light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk light Regular'), url('LemonMilklight.woff') format('woff');
+    }
+    @font-face {
+        font-family: 'Lemon/Milk light italic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Lemon/Milk light italic'), url('LemonMilklightitalic.woff') format('woff');
+        }    
+
+body{
+    background-color: #F2EAE4;
+    color: #734E38;
+    font-family: 'Lemon/Milk light Regular';
+}
+.span8{
+    margin-top: 5%;
+}
+.span4{
+    margin-top: 25%;
+    margin-left: 5%;
+    font-family: 'Lemon/Milk light Regular';
+    
+}
+.sub{
+    margin-left: 2%;
+}
+.p{
+    font-size: small;
+    margin-top: 10%;
+}
+.exp{
+    font-family: 'Lemon/Milk light Regular';
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+.h{
+    margin-left: 20%;
+    margin-top: 15%;
+    font-family: 'Lemon/Milk light Regular';
+    text-align: left;
+}
+.foto{
+    width: fit-content;
+    text-align: right;
+}
+.span5{
+    background-color: #D9CBBF;
+    width: 40rem;
+    height: 25rem;
+}
+.meio{
+    margin-top: 5%;
+    text-align: center;
+}
+.galeria{
+    width: 40rem;
+    height: 25rem;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    box-shadow: 5px 5px 5px 5px;
+}
+.galeria img{
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+}
+.box{
+    margin-top: 10%;
+    width: 100%;
+    height: 450px;
+    /* background-color: #734E38; */
+    background-size: cover;
+    background-color: #734E38;
+    color: #D9CBBF;
+    text-align: center;
+}
+.fundo{
+    width: 100%;
+    height: auto;
+}
+.margem{
+    margin-top: 2%;
+}
+.small{
+    margin-top: 5%;
+}
+
+@media .galeria {
+    width: 20rem;
+    height: 10rem;
+}
